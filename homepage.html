@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="fullPage.js-master/dist/fullpage.css">
+  <style>
+    * {
+      font-family: "微軟正黑體";
+      box-sizing: border-box;
+    }
+
+    .goTop {
+      right: 5px;
+      bottom: 5px;
+      z-index: 9;
+    }
+
+    .main_nav {
+      z-index: 1;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    .banner {
+      background: url(images/homepage/banner1.jpg) center center;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .banner_content {
+      max-width: 500px;
+      padding: 3%;
+    }
+
+    .banner_content h3 {
+      font-size: 1rem;
+      line-height: 2rem;
+      color: #fff;
+    }
+
+    .scrubs {
+      background: #808F7C;
+
+    }
+
+    .soap {
+      background: #336774
+    }
+
+    .home {
+      background: #808F7C;
+    }
+
+    .shower {
+      background: #336774
+    }
+
+    .bath {
+      background: #808F7C;
+    }
+
+    .bodycare {
+      background: #336774
+    }
+
+    .product,
+    .product_content {
+      width: 50%;
+      height: 100vh;
+    }
+
+    .product img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .product img:hover {
+      filter: grayscale(.5);
+    }
+
+    .product_content p {
+      color: #fff;
+      display: block;
+      max-width: 50%;
+      line-height: 2rem;
+    }
+
+    .foot {
+      background: #808F7C;
+      padding: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fullpage">
+    <button class="btn btn-info position-fixed goTop" id="">△</button>
+    <nav class="main_nav py-4 position-fixed ">
+      <div class="logo"></div>
+      <!-- <a href=""><img class="logo" src="images/homepage/logo.png" alt=""></a> -->
+      <button class="hamburger btn btn-outline-*">
+        <span class="hamburger_top"></span>
+        <span class="hamburger_mid"></span>
+        <span class="hamburger_bottom"></span>
+      </button>
+      <div class="hamburger_menu d-flex justify-content-center align-items-center">
+        <ul>
+          <li><a href="">關於我們</a></li>
+          <li><a href="">產品目錄</a></li>
+          <li><a href="">分店位置</a></li>
+          <li><a href="">最新消息</a></li>
+        </ul>
+
+      </div>
+    </nav>
+    <header class="section">
+      <div class="banner d-flex justify-content-center align-items-center">
+        <div class="banner_content ">
+          <h3 class=" text-center">
+            「每一個人都可以享受生活中的小事物，全心全意付出時間精神來呵護自己，讓自己成為世上最快樂的人。我們有許多方法來寵愛自己 – 簡單的泡浴放鬆身心，又或在家中噴上芬芳的香氣，燃點蠟蠋增添氣氛… …」
+          </h3>
+        </div>
+
+      </div>
+    </header>
+    <section class="section scrubs d-flex flex-row-reverse">
+      <div class="product ">
+        <img src="images/homepage/scrubs.jpg" alt="">
+      </div>
+      <div class="product_content d-flex justify-content-center align-items-center">
+        <p>讓肌膚恢復柔嫩細緻，展現自信青春美肌。蘊含死海礦鹽能溫和有效去除老廢角質同時為肌膚補充養分，添加來自亞馬遜雨林的杏仁油、荷荷巴油、琉璃苣油及維他命E等天然柔潤因子。不含界面活性劑及防腐劑 (SLS &Paraben
+          free) 。</p>
+      </div>
+    </section>
+    <section class="section soap  d-flex">
+      <div class="product">
+        <img src="images/homepage/soap.jpg" alt="">
+      </div>
+      <div class="product_content d-flex justify-content-center align-items-center">
+        <p>SABON手工香氛皂，深層淨潔，保溼不乾澀，讓肌膚散發迷人芳香。蘊含蓖麻籽油、橄欖油等天然植物油分，帶走髒汙的同時能保濕滋潤，讓肌膚更柔嫩細緻、光滑有彈性。</p>
+      </div>
+    </section>
+    <section class="section home  d-flex flex-row-reverse">
+      <div class="product">
+        <img src="images/homepage/home.jpg" alt="">
+      </div>
+      <div class="product_content d-flex justify-content-center align-items-center">
+        <p>典雅輕淡的花香撲鼻而來，讓人放鬆身心，享受舒服愉悅的好心情，亦可增添居家風情</p>
+      </div>
+    </section>
+    <section class="section shower  d-flex ">
+      <div class="product">
+        <img src="images/homepage/shower.jpg" alt="">
+      </div>
+      <div class="product_content d-flex justify-content-center align-items-center">
+        <p>SABON沐浴系列，洗出亮妍水嫩肌，享受愉悅沐浴時光
+          沖洗後輕盈而不油膩，享受前所未有的清新舒爽之感，在肌膚上留下香甜花果芬芳。</p>
+      </div>
+    </section>
+    <section class="section bath  d-flex flex-row-reverse">
+      <div class="product">
+        <img src="images/homepage/bath.jpg" alt="">
+      </div>
+      <div class="product_content d-flex justify-content-center align-items-center">
+        <p>SABON泡澡系列產品，讓肌膚柔嫩不緊繃，保濕潤澤，呵護嬌嫩肌膚。
+          蘊含多種植物精油，能有效潤澤肌膚，促進血液循環與新陳代謝，泡澡後散發淡淡清香。</p>
+      </div>
+    </section>
+    <section class="section bodycare  d-flex">
+      <div class="product">
+        <img src="images/homepage/bodycare.jpg" alt="">
+      </div>
+      <div class="product_content d-flex justify-content-center align-items-center">
+        <p>SABON身體保養系列，溫柔呵護您的肌膚
+          極致保濕，深層滋潤
+          重現亮麗彈嫩美肌</p>
+      </div>
+    </section>
+    <footer class="foot text-white">
+      由2014年9月開始，您可以在台灣找到SABON正式專賣店，享受我們獨特的產品。
+
+      來到 SABON 親身體驗全新奇妙世界，我們的專業顧問團隊將會向你介紹一系列來自世界各地精選的商品，獨特珍貴的美容保養及家居護理產品。全系列產品以天然成分，精選香氛精油，以及來自全球特選的各種精華配方而成。
+      我們誠意邀請您進來休憩片刻，放鬆身心，同時在美麗的幸運井(Wishing Well)旁享受我們為您提供的細緻手部保養介紹。
+    </footer>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+  <script src="menu.js"></script>
+  <script src="goTop.js"></script>
+  <script src="fullPage.js-master/dist/fullpage.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage({
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true
+      });
+
+      //methods
+      $.fn.fullpage.setAllowScrolling(false);
+    });
+  </script>
+</body>
+
+</html>
